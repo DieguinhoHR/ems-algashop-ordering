@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.algaworks.algashop.ordering.domain.entity.CustomerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-07-13T00:36:58.328Z" hostname="CTNLDELL8PN6C24" time="0.036">
+  <properties/>
+  <testcase name="given_invalidEmail_whenTryCreateCustomer_shouldGenerateException()" classname="com.algaworks.algashop.ordering.domain.entity.CustomerTest" time="0.036">
+    <failure message="java.lang.AssertionError: &#10;Expecting code to raise a throwable." type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting code to raise a throwable.
+	at com.algaworks.algashop.ordering.domain.entity.CustomerTest.given_invalidEmail_whenTryCreateCustomer_shouldGenerateException(CustomerTest.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
